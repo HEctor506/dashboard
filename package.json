@@ -1,9 +1,9 @@
 {
-  "name": "dashboard-clima",
+  "name": "dashboard",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://HEctor506.github.io/dashboard-clima",
+  "homepage": "https://HEctor506.github.io/dashboard",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
