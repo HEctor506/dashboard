@@ -2,7 +2,7 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from './assets/vite.svg'
 // import heroImg from './assets/hero.png'
-import { Grid } from '@mui/material';
+import Grid from '@mui/material/Grid';
 import AlertUI from './components/AlertUI';
 import HeaderUI from './components/HeaderUI';
 import './App.css'
