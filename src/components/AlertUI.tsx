@@ -1,5 +1,6 @@
 import Alert from '@mui/material/Alert';
 
+
 interface AlertConfig {
     description: string;
 }
