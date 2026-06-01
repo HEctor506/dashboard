@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://HEctor506.github.io/dashboard",
+  "homepage": "https://HEctor506.github.io/dashboard-clima",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
