@@ -5,6 +5,8 @@
 import Grid from '@mui/material/Grid';
 import AlertUI from './components/AlertUI';
 import HeaderUI from './components/HeaderUI';
+import SelectorUI from './components/SelectorUI';
+import IndicatorUI from './components/IndicatorUI';
 import './App.css'
 
 function App() {
@@ -34,10 +36,30 @@ function App() {
           </Grid>
 
          {/* Selector */}
-         <Grid size={{ xs: 3, md: 3 }}  >Elemento: Selector</Grid>
+         <Grid size={{ xs: 3, md: 3 }}  >
+          <SelectorUI />
+          </Grid>
 
          {/* Indicadores */}
-         <Grid size={{ xs: 9, md: 9 }} >Elemento: Indicadores</Grid>
+             <Grid container size={{ xs: 12, md: 9 }} >
+
+                 <Grid size={{ xs: 12, md: 3 }}>
+                     <IndicatorUI title='Temperatura (2m)' description='XX°C' />
+                 </Grid>
+
+                 <Grid size={{ xs: 12, md: 3 }}>
+                     <IndicatorUI title='Temperatura (5m)' description='XX°C' />
+                 </Grid>
+
+                 <Grid size={{ xs: 12, md: 3 }}>
+                     <IndicatorUI title='Temperatura (2m)' description='XX°C' />
+                 </Grid>
+
+                 <Grid size={{ xs: 12, md: 3 }}>
+                     <IndicatorUI title='Temperatura (2m)' description='XX°C' />
+                 </Grid>
+
+             </Grid>
 
          {/* Gráfico */}
          <Grid size={{ xs: 6, md: 6 }} >Elemento: Gráfico</Grid>
